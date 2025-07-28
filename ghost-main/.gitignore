@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.genkit/*
+.env*
+
+# firebase
+firebase-debug.log
+firestore-debug.log
+
+# Documentation files (keep only essential)
+**/COMPLETE_BACKEND_GUIDE.md
+**/CONNECTION_ISSUES_FIXED.md
+**/DEPLOY.md
+**/DEPLOYMENT_READY.md
+**/FIREBASE_SETUP.md
+**/FIRESTORE_SETUP_REQUIRED.md
+**/GITHUB_UPLOAD_GUIDE.md
+**/PUSH_TO_GITHUB.md
+**/SUCCESS_ALL_WORKING.md
+**/TESTING_GUIDE.md
+**/URGENT_FIRESTORE_SETUP.md
+**/*.md
+!README.md
+!docs/**/*.md
+
+# IDE and config
+.idx/
+.modified
+
+# Large files
+"# Code Citations.md"
+# Local Netlify folder
+.netlify
